@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height:max-content;
+    border: 1px solid black;
+    margin: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-click{
+    position:relative;
+    top: 50%;
+    left: 180vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
